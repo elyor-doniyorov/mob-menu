@@ -25,7 +25,7 @@ Application is based on this [Figma design](https://www.figma.com/file/t3EJUCAEV
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page]().
+Feel free to check the [issues page](https://github.com/elyor-doniyorov/mob-menu/issues).
 
 ## Acknowledgments
 
@@ -39,4 +39,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT]() licensed.
+This project is [MIT](MIT) licensed.

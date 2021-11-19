@@ -419,16 +419,17 @@ textarea {
 
 #mob-menu .mob-list li {
   text-align: left;
-  border-bottom: 1px dashed rgb(66, 65, 65);
+  border-bottom: 1px solid #fff5e1;
 }
 
 #mob-menu .mob-list li a {
   color: #fff5e1;
+  font-weight: bold;
 }
 
 #mob-menu {
   display: none;
-  background-color: #aa9a92;
+  background-color: #6b6a6a;
   top: 0;
   left: 0;
   right: 0;
@@ -442,16 +443,12 @@ textarea {
 
 #mob-close-menu {
   align-self: flex-end;
-  color: red;
+  color: #9e9997;
 }
 
 .mobile-list {
   width: 100%;
 }
-
-/* .close-btn {
-  color: red;
-} */
 
 @media all and (min-width: 720px) {
   .top-social {
