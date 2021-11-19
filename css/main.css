@@ -417,6 +417,42 @@ textarea {
     brightness(92%) contrast(82%);
 }
 
+#mob-menu .mob-list li {
+  text-align: left;
+  border-bottom: 1px dashed rgb(66, 65, 65);
+}
+
+#mob-menu .mob-list li a {
+  color: #fff5e1;
+}
+
+#mob-menu {
+  display: none;
+  background-color: #aa9a92;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: 1;
+  padding: 20px;
+  cursor: pointer;
+  flex-direction: column;
+}
+
+#mob-close-menu {
+  align-self: flex-end;
+  color: red;
+}
+
+.mobile-list {
+  width: 100%;
+}
+
+/* .close-btn {
+  color: red;
+} */
+
 @media all and (min-width: 720px) {
   .top-social {
     flex-direction: column;
@@ -449,9 +485,17 @@ textarea {
     display: block;
   }
 
+  #mob-menu {
+    display: none;
+  }
+
   #desktop-nav ul {
     display: flex;
     margin-right: 10vw;
+  }
+
+  .mobile-list {
+    width: 100%;
   }
 
   .nav-link {
