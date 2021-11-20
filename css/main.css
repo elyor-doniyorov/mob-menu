@@ -446,6 +446,11 @@ textarea {
   color: #9e9997;
 }
 
+/* #mob-close-menu {
+  align-self: flex-end;
+  color: #9e9997;
+} */
+
 .mobile-list {
   width: 100%;
 }
@@ -491,7 +496,7 @@ textarea {
     margin-right: 10vw;
   }
 
-  .mobile-list {
+  .mob-list {
     width: 100%;
   }
 
